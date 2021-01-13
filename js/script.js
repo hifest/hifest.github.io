@@ -62,7 +62,7 @@ $('.button_mini').each(function(i){
 });
 document.body.onload = function() {
 
-    setTimeout(function(){
+    setTimeout(function(){ //код до прилоадера//
         var prelodaer = document.getElementById('page-preloader');
         if(!prelodaer.classList.contains('done'))
         {
